@@ -9,6 +9,8 @@ So, in order to implement the first system, we choose wit.ai, an online NLP plat
 We hope our project will inspire more people to be aware of coronavirus, gain knowledge about it, and protect themselves from being affected.
 
 Devpost link: https://devpost.com/software/healthhero
-https://github.com/da-cheng293/HealthHero/tree/master/HealthHero/structure.PNG
-https://github.com/da-cheng293/HealthHero/tree/master/HealthHero/webpage.PNG
+
+<img src="https://github.com/da-cheng293/HealthHero/tree/master/HealthHero/structure.PNG" alt="summary" width="800" style="max-width:100%;">
+<img src="https://github.com/da-cheng293/HealthHero/tree/master/HealthHero/webpage.PNG" alt="summary" width="800" style="max-width:100%;">
+
 
