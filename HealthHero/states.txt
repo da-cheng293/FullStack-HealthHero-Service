@@ -1,0 +1,29 @@
+加州,California
+华盛顿州,Washington
+纽约,New York
+撤侨/游轮,Evacuation/Ship
+德克萨斯,Texas
+马萨诸塞,Massachusetts
+科罗拉多,Colorado
+佛罗里达,Florida
+伊利诺伊,Illinois
+新泽西,New Jersey
+罗德岛,Rhode Island
+亚利桑那,Arizona
+俄勒冈,Oregon
+乔治亚,Georgia
+马里兰,Maryland
+新罕布什尔,New Hampshire
+北卡,North Carolina
+内华达,Nevada
+宾夕法尼亚,Pennsylvania
+南卡,South Carolina
+威斯康星,Wisconsin
+田纳西,Tennessee
+印第安纳,Indiana
+明尼苏达,Minnesota
+肯塔基州,Kentucky
+内布拉斯加,Nebraska
+俄克拉荷马,Oklahoma
+康涅狄格,Connecticut
+夏威夷,Hawaii

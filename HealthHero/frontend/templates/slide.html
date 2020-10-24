@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<title>Question</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<style>
+.mySlides {display:none;}
+</style>
+
+<style>
+div1 {
+
+  margin: 25px 80px 150px 650px;
+
+}
+
+
+</style>
+
+
+<style>
+div2 {
+
+  margin: 25px 100px 150px 100px;
+
+}
+</style>
+
+
+
+<style>
+div3 {
+
+  margin: 25px 100px 150px 100px;
+
+}
+</style>
+<body>
+
+
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="//cdn.ckeditor.com/4.6.2/basic/ckeditor.js"></script>
+    <script type="text/javascript">
+      CKEDITOR.replace('editor')
+    </script>
+  {% include 'includes/_navbar.html' %}
+<h2 class="w3-center">Question about COVID-19 virus</h2>
+
+
+<div class="w3-container">
+
+
+
+  <div class="w3-panel w3-card"><p>Do you know how much washington people die in COVID-19 virus?</p></div>
+
+</div>
+
+<div1 >
+
+   <a href="/correct" class="w3-button w3-red">True</a>
+</div1>
+
+<div2 >
+    <a  class="w3-button w3-blue">Next</a>
+
+</div2>
+
+
+<div3 >
+
+  <a href="/wrong_explain" class="w3-button w3-black">False</a>
+</div3>
+
+
+</body>
+</html>

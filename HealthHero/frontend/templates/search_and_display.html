@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html">
+<title>Question</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<style>
+    .mySlides {
+        display: none;
+    }
+</style>
+
+<style>
+    div1 {
+
+        margin: 300px 300px 300px 700px;
+
+    }
+
+
+</style>
+
+
+<style>
+    div2 {
+
+        margin: 25px 100px 150px 100px;
+
+    }
+</style>
+
+
+<style>
+    div3 {
+
+        margin: 25px 100px 150px 100px;
+
+    }
+</style>
+
+<script>
+    function loadJSON(url) {
+        try {
+            xmlhttp = new XMLHttpRequest();
+            xmlhttp.open("GET", url, false); // "synchronous” (deprecated because it freezes the page while waiting for a response) *
+            xmlhttp.send();
+            if (xmlhttp.status === 404) {
+                return null;
+            } else {
+                jsonObj = JSON.parse(xmlhttp.responseText);
+                console.log(jsonObj);
+                return jsonObj;
+            }
+        } catch (err) {
+            return null;
+        }
+    }
+
+    function askText() {
+        let q = document.getElementById("text-input").value;
+        console.log(q);
+        let ans = loadJSON("http://127.0.0.1:5000/query?q=" + q);
+        document.getElementById("answer").innerText = ans.answer;
+        document.getElementById("answer").style.display = "block";
+    }
+</script>
+
+<body>
+{% include 'includes/_navbar.html' %}
+<h2 class="w3-center">Question about COVID-19 virus</h2>
+<!-- <div4 style = "position:relative; left:200px; top:200px;">-->
+<!--  {% include 'includes/_messages.html' %}-->
+<!--        </div4>-->
+<div5 style="position:relative; left:700px; top:70px; width: 2px; ">
+</div5>
+<div1 style="position:relative; left:700px; top:150px;">
+    <form id="tfnewsearch" onsubmit="return false;" method="post" action="/search_content">
+        <input id="text-input" class="tftextinput" name="q" size="40" maxlength="300">
+
+        <button id="text-button" onclick="askText()">Ask</button>
+        <div id="answer" class="alert alert-info" style = "width: 380px;margin-top:20px;display: none"></div>
+        <br>
+        <div4 style="position:relative; left:1200px; top:100px;">
+
+        </div4>
+        <br>
+
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="//cdn.ckeditor.com/4.6.2/basic/ckeditor.js"></script>
+        <script type="text/javascript">
+            CKEDITOR.replace('editor')
+        </script>
+</body>
+</html>
