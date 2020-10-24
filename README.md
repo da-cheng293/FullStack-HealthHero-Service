@@ -10,7 +10,7 @@ We hope our project will inspire more people to be aware of coronavirus, gain kn
 
 Devpost link: https://devpost.com/software/healthhero
 
-<img src="https://github.com/da-cheng293/HealthHero/tree/master/HealthHero/structure.PNG" alt="summary" width="800" style="max-width:100%;">
-<img src="https://github.com/da-cheng293/HealthHero/tree/master/HealthHero/webpage.PNG" alt="summary" width="800" style="max-width:100%;">
+![alternativetext](HealthHero/structure.PNG)
 
+![alternativetext](HealthHero/webpage.PNG)
 
